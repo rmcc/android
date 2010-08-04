@@ -1,0 +1,14 @@
+To build Android for your ADQ-based (Geeksphone ONE, Highscreen Zeus, 
+Commtiva Z1) device, follow the instructions for AOSP, at
+http://source.android.com/source/building-dream.html
+
+There are 3 main differences in the instructions
+
+1 - you should use my manifest. For that, replace the "repo init" line 
+in the above instructions with "repo init -u git://github.com/rmcc/android.git"
+2 - Optional if you just want individual components, required if you intend to 
+build an installable image: To build with ADQ-specific options, replace the 
+"lunch" line with "lunch geeksphone_one-eng".
+3 - The FIH bootloader that comes with ADQ doesn't support fastboot. If you
+want installable packages, use "make otapackage" to get ZIP files you can
+use in recovery.
