@@ -124,7 +124,7 @@
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/ril" name="android_hardware_ril" remote="rmcc" />
-  <project path="hardware/sensors" name="android_hardware_sensors" remote="rmcc" />
+  <project path="hardware/adq" name="android_hardware_adq" remote="rmcc" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
 
