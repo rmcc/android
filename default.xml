@@ -153,7 +153,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/RCUpdater" name="packages_apps_RCUpdater" remote="rmcc" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rmcc" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="eclair-froyo" />
