@@ -10,7 +10,7 @@
   <default revision="froyo"
            remote="korg" />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="android_platform_build" remote="rmcc">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
