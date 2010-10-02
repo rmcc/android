@@ -119,7 +119,7 @@
   <project path="frameworks/policies/base" name="android_frameworks_policies_base" remote="rmcc" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="rmcc" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy"  remote="rmcc" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="rmcc" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
