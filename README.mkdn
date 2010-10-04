@@ -26,11 +26,9 @@ In order to get a functioning boot image, you'll also need a kernel binary. I su
 
 	mkdir -p ~/rcmod/
 	cd ~/rcmod/
-	git clone git://github.com/rmcc/gp_one_kernel.git -b rmcc-wip kernel
+	git clone git://github.com/rmcc/gp_one_kernel.git kernel
 	cd kernel
-	adb pull /proc/config.gz 
-	gunzip config.gz
-	mv config .config
+	cp arch/arm/config/adq_defconfig .config
 	make ARCH=arm CROSS_COMPILE=arm-eabi-
 
 If all goes well, this will result in a "zImage" file. Copy that file from ~/rcmod/kernel/arch/arm/boot/zImage to device/geeksphone/geeksphone-one/adq-kernel before you start building the rest of the ROM
