@@ -59,3 +59,8 @@ Build the ROM
 -------------
 
 	make otapackage
+
+Note
+====
+
+Due to a bug in older versions, you need at least version 1.6 of the recovery to install the OTA packages generated. You can get it from http://gpone-aosp.googlecode.com/files/update-recovery-1.6.zip and install it as an update. If your current version of RCMod is 3.0.4.1 or greater, you should have it already.
