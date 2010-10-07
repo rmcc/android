@@ -190,4 +190,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
+  <project path="vendor/qcom/android-open" name="android_vendor_qcom_android-open" remote="rmcc" />
+
 </manifest>
