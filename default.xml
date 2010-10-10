@@ -193,4 +193,5 @@
   <project path="vendor/qcom/android-open" name="android_vendor_qcom_android-open" remote="rmcc" />
   <project path="vendor/qcom-opensource/omx/mm-core" name="android_vendor_qcom-opensource_omx_mm-core" remote="rmcc" />
 
+  <project path="kernel" name="gp_one_kernel" remote="rmcc" revision="HEAD" />
 </manifest>
