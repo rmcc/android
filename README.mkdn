@@ -35,18 +35,7 @@ To build the ROM, you'll also need some proprietary binaries from the vendor. To
 Kernel
 ------
 
-In order to get a functioning boot image, you'll also need a kernel binary. I suggest you build one from my tree, like this:
-
-	mkdir -p ~/rcmod/
-	cd ~/rcmod/
-	git clone git://github.com/rmcc/gp_one_kernel.git kernel
-	cd kernel
-	cp arch/arm/configs/adq_defconfig .config
-	make ARCH=arm CROSS_COMPILE=arm-eabi-
-
-If all goes well, this will result in a "zImage" file. Copy that file from ~/rcmod/kernel/arch/arm/boot/zImage to device/geeksphone/geeksphone-one/adq-kernel before you start building the rest of the ROM
-
-	cp ~/rcmod/kernel/arch/arm/boot/zImage ~/rcmod/system/device/geeksphone/geeksphone-one/adq-kernel
+The kernel is now part of the manifest, and compiled as part of the Android build process. No additional steps are necessary.
 
 Prepare the environment
 -----------------------
