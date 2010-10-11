@@ -109,6 +109,7 @@
   <project path="external/tslib" name="android_external_tslib" remote="rmcc" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/WirelessTether" name="android_external_WirelessTether" remote="rmcc" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
